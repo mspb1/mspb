@@ -1,0 +1,6 @@
+C:\Users\m4>py -m pydoc modules
+C:\Users\m4>py -m pip install requests
+C:\Users\m4>py -m pip install --upgrade pip
+
+py -mpip install openai
+py -mpip install python-csv

@@ -1,0 +1,23 @@
+Создание пользователя
+git config --global user.name "mspb"
+
+git --version
+
+
+git init
+инициализация репо
+Initialized empty Git repository in F:/python/repos/.git/
+
+это основная команда для отслеживания изменений файлов, находящихся в репозитории
+git status
+
+Подключение удалённого репо
+git remote add origin https://github.com/mspb1/mspb#mspb
+
+Проверка успешного соединения
+git remoute -v
+
+клонирование репо
+git clone https://github.com/dkarym/sf_test
+git add имя файла
+
