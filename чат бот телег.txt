@@ -1,3 +1,0 @@
-установить библиотеку
-pyTelegramBotAPI
-openai
