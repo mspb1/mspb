@@ -1,10 +1,13 @@
+mspb1 53463193s
+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
+
 Создание пользователя
-git config --global user.name "mspb"
+git config --global user.name "mspb1"
 
 git --version
+ls листинг файлов
 
-
-git init
+git init F:/python/repos/
 инициализация репо
 Initialized empty Git repository in F:/python/repos/.git/
 
@@ -12,12 +15,25 @@ Initialized empty Git repository in F:/python/repos/.git/
 git status
 
 Подключение удалённого репо
-git remote add origin https://github.com/mspb1/mspb#mspb
+git remote add origin https://github.com/mspb1/mspb.git
 
 Проверка успешного соединения
-git remoute -v
+git remote -v
 
 клонирование репо
 git clone https://github.com/dkarym/sf_test
-git add имя файла
 
+добавление файла в репо
+git add имя файла
+можно использовать метасимволы, например, . (точка), что означает «добавить все измененные и неотслеживаемые файлы в подготовленные».
+git add . 
+
+Для фиксации изменений необходимо выполнить команду git commit.
+Если эту команду подать без параметров, то откроется редактор, в котором нужно будет добавить сообщение к этому коммиту.
+Можно добавить сообщение после команды git commit с помощью параметра -m
+
+git push — команда, которую нужно использовать для публикации изменений на сервере.
+git push origin(mspb) master
+
+git rm, которая также удаляет файл из вашего рабочего каталога.
+указав после неё имя файла
